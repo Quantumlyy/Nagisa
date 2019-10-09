@@ -1,3 +1,3 @@
-[submodule "dependencies/sleepy_discord"]
-	path = dependencies/sleepy_discord
-	url = https://github.com/yourWaifu/sleepy-discord.git
+[submodule "dependencies/sleep_discord"]
+	path = dependencies/sleep_discord
+	url = git@github.com:yourWaifu/sleepy-discord.git
