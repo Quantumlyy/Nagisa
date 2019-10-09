@@ -12,6 +12,14 @@ set(NAGISA_SOURCES
 set(NAGISA_LINK_LIBRARIES
   sleepy-discord
 )
+
+if(NOT WIN32)
+    set(NAGISA_LINK_LIBRARIES
+      ${NAGISA_LINK_LIBRARIES}
+      m
+    )
+endif()
+
 set(NAGISA_EXECUTABLE_HEADERS
   ${NAGISA_HEADERS}
 )
