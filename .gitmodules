@@ -1,3 +1,3 @@
 [submodule "dependencies/sleepy_discord"]
 	path = dependencies/sleepy_discord
-	url = https://github.com/yourWaifu/sleepy-discord/tree/master
+	url = https://github.com/yourWaifu/sleepy-discord.git
